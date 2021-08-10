@@ -1,0 +1,270 @@
+:root
+{
+    --primary:#fbc02d;
+}
+
+
+.bg-black
+{
+    background-color: black !important;
+}
+.home-image
+{
+    
+    height:20vh;
+    
+}
+.main-btn
+{
+    background-color: var(--primary);
+    color: black;
+    border:solid  var(--primary) 2px;
+}
+
+.main-footer
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#registro_enlace
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+
+}
+#ingreso_enlace 
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+#ingreso_enlace li 
+{
+    list-style: none;
+
+}
+#registro_enlace li
+{
+    list-style: none;
+
+}
+
+#ingreso_enlace li a
+{
+    text-decoration: none;
+    color: white;
+
+}
+#registro_enlace li a
+{
+    text-decoration: none;
+    color: white;
+
+}
+
+.btn-productos_servicios
+{
+    border-radius: 50px;
+}
+
+#carrito
+{
+    margin: 20px;
+}
+/*aca empiezan los estilos de las cards*/
+.cards_productos
+{
+    display: flex;
+    background-color: #D6D6D6;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;
+}
+.nombre_card
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px 8px 0px 8px;
+
+}
+.descripcion_producto
+{
+    display: flex;
+    margin: 4px 8px 0px 8px;
+}
+.precio_cantidad_producto_orden
+{
+    display: flex;
+    margin: 0px 2px 4px 8px;
+}
+.precio_cantidad_producto_orden input
+{
+    width: 45px;
+    height: 20px;
+    margin: 0px 8px 1px 7px;
+    
+}
+.boton_compra
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.boton_compra button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+/*aca empiezan los estilos del Registro*/
+.Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+         
+}
+
+
+.Button{
+    display: flex;
+    justify-content: center;
+    margin-right: 21%;
+    width: 80%;
+    
+    
+    
+ }
+
+.Formulario_total{
+    background-color: rgba(133, 133, 133, 0.137);
+    border-radius: 20px;
+    box-shadow: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+    height: 32rem;
+    border: 10;
+    box-shadow: 5px 5px 10px #161313;
+     
+}
+
+.PROMOCIONES{
+
+    padding: 5rem;
+    width: 50rem;
+    height: 30rem;
+    border: 10 px;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;  
+    left: 13%;
+    
+   
+    
+}
+
+.promocion1{
+    background-color: rgba(133, 133, 133, 0.137);
+    height: 12rem;
+
+    
+}
+
+.promocion2{
+    background-color: rgba(133, 133, 133, 0.137);
+    height: 11rem;
+}
+
+.btn-primary{
+    
+    margin-left: 60px;
+    border-radius: 57px;
+    width: 60%;
+}
+.row{
+    float: right;
+}
+
+#Usuario{
+    border-radius: 16px;
+    width: 350px;
+    height: 2.6rem;
+    text-align: center;
+}
+
+#Contraseña{
+    border-radius: 16px;
+        text-align: center;
+        width: 350px;
+    height: 2.6rem;
+}
+
+#Nombres{
+    border-radius: 16px;
+    width: 350px;
+    height: 2.6rem;
+    text-align: center;
+}
+
+#Apellidos{
+    border-radius: 16px;
+    width: 350px;
+    height: 2.6rem;
+    text-align: center;
+}
+
+#Correo_Electronico{
+    border-radius: 16px;
+    width: 350px;
+    height: 2.6rem;
+    text-align: center;
+}
+
+#Telefono{
+    border-radius: 16px;
+    width: 350px;
+    height: 2.6rem;
+    text-align: center;
+}
+
+.btn-danger{
+    margin-left: 77px;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    position:sticky
+
+}
+
+.card-text{
+    font-size: 10px;
+}
+.flex{
+    display: flex;
+}
+
+.cajon1{
+    padding: 0.5%;
+
+}
+
+.img-promo1{
+    margin-left: 10%;
+    margin-top: 50%;
+    
+}
+
+.card-body{
+    margin-left: 15%;
+    font-size: 50%;
+    
+}
