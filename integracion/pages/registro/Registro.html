@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,220 +7,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./image/logo.jpeg" type="image/x-icon">
-    <link rel="stylesheet " href="./styles/style.css">
-    <title> Registro IBA-PYME</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Ingresar</title>
 </head>
 
 <body>
 
-    <div>
-        <div class="home-image d-flex flex-column">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-                <div class="container-fluid">
-                    <div id="logo_nav">
-                        <a class="navbar-brand" href="../../index.html">
-                            <img src="images/logo.png" alt="logo" width="50px" height="50px">
-                        </a>
-                    </div>
-                    <a class="navbar-brand" href="../../index.html">IBA-PYME</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black mb-5">
+        <div class="container-fluid">
+            <div id="logo_nav">
+                <a class="navbar-brand" href="../../index.html">
+                    <img src="images/logo.png" alt="logo" width="50px" height="50px">
+                </a>
+            </div>
+            <a class="navbar-brand" href="../../index.html">IBA-PYME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
 
-                        <div id="ingreso_enlace">
-                            <li class="nav-item">
-                                <a href="../Login/login.html">Ingresar</a>
-                            </li>
-                        </div>
-                        <div id="registro_enlace">
-                            <li class="nav-item">
-                                <a href="">Registrarse</a>
-                            </li>
-                        </div>
-                        <div id="carrito">
-                            <a href="../carrito_compras/index.html">
-                                <img src="images/carrito_compras.png" alt="carrito_compras" width="40px" height="40px">
-                            </a>
-                        </div>
-                    </div>
+                <div id="ingreso_enlace">
+                    <li class="nav-item">
+                        <a href="#">Ingresar</a>
+                    </li>
                 </div>
-            </nav>
+                <div id="registro_enlace">
+                    <li class="nav-item">
+                        <a href="../registro/Registro.html">Registrarse</a>
+                    </li>
+                </div>
+                <div id="registro_enlace">
+                    <li class="nav-item">
+                        <a href="../Login/login.html">Login</a>
+                    </li>
+                </div>
+                <div id="carrito">
+                    <a href="../carrito_compras/index.html">
+                        <img src="images/carrito_compras.png" alt="carrito_compras" width="40px" height="40px">
+                    </a>
+                </div>
+            </div>
         </div>
+    </nav>
 
-        <div class="container">
-            <div>
-                <div class="row">
-                    <div class="Formulario_total col-6 col-sm-6 col-md-2 col-lg-4 col-xl-4 col-xxl-4 card ms-3 me-3"
-                        style="width: 28rem;">
-                        <div></div>
-                        <h3 style="text-align: center;">
-                            Registro</h3>
-                        <div class="Formulario">
-
-                            <form method="POST">
-
-                                <div class="diseño">
-
-                                    <div class="Usuario">
-                                        <label for="Usuario "></label>
-                                    </div>
-                                    <div class="field primeros">
-                                        <input type="text" id="Usuario" name="Usuario" required placeholder="Usuario">
-                                    </div>
-
-                                </div>
-
-                                <div class="diseño">
-
-                                    <div>
-                                        <label for="Contraseña"></label>
-                                    </div>
-                                    <div class="field primeros">
-                                        <input type="password" id="Contraseña" name="contraseña" required
-                                            placeholder="Contraseña">
-
-                                    </div>
-
-                                </div>
-
-                                <div class="diseño">
-                                    <div>
-                                        <label for="Nombres"></label>
-                                    </div>
-
-                                    <div class="field primeros">
-                                        <input type="text" id="Nombres" name="Nombres" required placeholder="Nombres">
-                                    </div>
-                                    <div>
-                                        <label for="Apellidos"></label>
-                                    </div>
-
-                                    <div class="field primeros">
-                                        <input type="text" id="Apellidos" name="Apellidos" required
-                                            placeholder="Apellidos">
-                                    </div>
-                                    <div>
-                                        <label for="Correo_Electronico"></label>
-                                    </div>
-
-                                    <div class="field primeros">
-                                        <input type="email" id="Correo_Electronico" name="Correo_Electronico" required
-                                            placeholder="Correo Electrónico">
-                                    </div>
-
-
-                                </div>
-
-                                <div class="diseño">
-                                    <div>
-                                        <label for="Telefono"></label>
-                                    </div>
-
-                                    <div class="field primeros">
-                                        <input type="number" id="Telefono" name="Telefono" required
-                                            placeholder="Telefono">
-                                    </div>
-
-                                </div>
-                        </div> <br>
-
-
-                        <div class="Button">
-                            <input class="btn btn-primary" type="submit" value="Registrarse">
-
-
-
-                        </div>
-                    </div>
-                    <div class="PROMOCIONES col-12 col-sm-6 col-md-2 col-lg-4 col-xl-4 col-xxl-4 card ms-4 me-4"
-                        style="width: 24rem;">
-                        <div>
-                            <h1 style="text-align: center;">
-
-                                Promociones</h1>
-                            <div class="cajon1">
-                                <div class=" promocion1 card mb-2 col-12 col-sm-6 col-md-2 col-lg-4 col-xl-4 col-xxl-4 card ms-3 me-3"
-                                    style="width: 310px;">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div>
-                                                <DIV
-                                                    STYLE="position:absolute; top:15px; left:75px; visibility:visible z-index 1">
-                                                    <IMG height="40"
-                                                        SRC="./images/WhatsApp Image 2021-08-04 at 9.54.51 PM.jpeg"
-                                                        width="80">
-                                                </div>
-                                            </div>
-
-                                            <div class="img-promo1">
-                                                <img src="./images/mascotas.jpg" alt="..." style="width: 140px;">
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="col-md-8 ">
-                                            <div class="card-body">
-                                                <h3 class="card-title">Nombre</h3>
-                                                <h6 class="card-title">Descripción </h6>
-                                                <p class="card-text">Aquí se agrega una descripción del producto.
-
-                                                </p>
-                                                <p class="card-text"><small class="text-muted"></small>
-                                                </p>
-                                            </div>
-                                            <div></div>
-                                            <a class="btn btn-primary" href="#" role="button">Comprar</a>
-
-
-
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="container-fluid">
+        <div class="row py-4">
+            <div class="col-12 col-lg-7">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-10 col-md-6 d-flex justify-content-center align-items-center form-login"
+                        style=" min-height: 55vh;">
+                        <form action="#">
+                            <div class="my-3 text-center ">
+                                <h3>Registro</h3>
                             </div>
 
+                            <div class="my-3 input-group input-group-sm" style="width: 225px;">
+                                <input type="email" class="form-control rounded-pill text-center" placeholder="Usuario">
+                            </div>
+                            <div class="my-3 input-group input-group-sm">
+                                <input type="password" class="form-control rounded-pill text-center"
+                                    placeholder="Contraseña">
+                            </div>
 
+                            <div class="my-3 input-group input-group-sm" style="width: 225px;">
+                                <input type="text" class="form-control rounded-pill text-center" placeholder="Nombres">
+                            </div>
+
+                            <div class="my-3 input-group input-group-sm" style="width: 225px;">
+                                <input type="text" class="form-control rounded-pill text-center"
+                                    placeholder="Apellidos">
+                            </div>
+
+                            <div class="my-3 input-group input-group-sm" style="width: 225px;">
+                                <input type="email" class="form-control rounded-pill text-center"
+                                    placeholder="Correo Electrónico">
+                            </div>
+
+                            <div class="my-3 input-group input-group-sm" style="width: 225px;">
+                                <input type="number" class="form-control rounded-pill text-center"
+                                    placeholder="Teléfono">
+                            </div>
+                            <div class="my-3 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary">Registrarse</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5">
+                <div class="row d-flex justify-content-center align-items-center pt-2">
+                    <div class="col-8 border">
+                        <div class="my-3 text-center ">
+                            <h1>Promociones</h1>
                         </div>
-                        <div class="cajon2">
-                            <div class=" promocion1 card mb-2 col-12 col-sm-6 col-md-2 col-lg-4 col-xl-4 col-xxl-4 card ms-3 me-3"
-                                style="width: 310px;">
-                                <div class="row">
-                                    <div class="col-md-4">
+                        <div class="card mb-3 promo" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div
+                                    class="promocion1 col-md-5 py-3 ps-2 d-flex justify-content-center align-items-center">
+
+                                    <div style="width: 160px" class="position-relative">
                                         <div>
                                             <DIV
-                                                STYLE="position:absolute; top:15px; left:75px; visibility:visible z-index 1">
-                                                <IMG height="40"
+                                                STYLE="position:absolute; top:0px; left:110px; visibility:visible z-index 1">
+                                                <IMG height="30"
                                                     SRC="./images/WhatsApp Image 2021-08-04 at 9.54.51 PM.jpeg"
                                                     width="80">
                                             </div>
                                         </div>
-
-                                        <div class="img-promo1">
-                                            <img src="./images/PROD 2.jpg" alt="..." style="width: 140px;">
-
+                                        <div class="img-promo">
+                                            <img src="./images/mascotas.jpg" alt="..." style="width: 138%;">
                                         </div>
 
                                     </div>
 
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Nombre</h3>
+                                        <h6 class="card-title">Descripción </h6>
+                                        <p class="card-text">Aquí se agrega una descripción del producto.
 
-                                    <div class="col-md-8 ">
-                                        <div class="card-body">
-                                            <h3 class="card-title">Nombre</h3>
-                                            <h6 class="card-title">Descripción </h6>
-                                            <p class="card-text">Aquí se agrega una descripción del producto.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted"></small>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary boton_compra" type="submit">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 promo" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div
+                                    class="promocion1 col-md-5 py-3 ps-2 d-flex justify-content-center align-items-center">
 
-                                            </p>
-                                            <p class="card-text"><small class="text-muted"></small>
-                                            </p>
+                                    <div style="width: 160px" class="position-relative">
+                                        <div>
+                                            <DIV
+                                                STYLE="position:absolute; top:0px; left:110px; visibility:visible z-index 1">
+                                                <IMG height="30"
+                                                    SRC="./images/WhatsApp Image 2021-08-04 at 9.54.51 PM.jpeg"
+                                                    width="80">
+                                            </div>
                                         </div>
-                                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                                        <div class="img-promo">
+                                            <img src="./images/PROD 2.jpg" alt="..." style="width: 138%;">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Nombre</h3>
+                                        <h6 class="card-title">Descripción </h6>
+                                        <p class="card-text">Aquí se agrega una descripción del producto.
+
+                                        </p>
+                                        <p class="card-text"><small class="text-muted"></small>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary boton_compra" type="submit">Comprar</button>
                                     </div>
                                 </div>
                             </div>
@@ -230,9 +183,14 @@
             </div>
         </div>
     </div>
+
+    <div class="w-100 text-center main-footer mt-5" style="height: 70px;">
+        <p class="pt-4">
+            © Created by Team Fall
+        </p>
     </div>
-    </div>
-    </div>
-    </div>
+
+
 </body>
+
 </html>

@@ -59,12 +59,6 @@
 {
     border-radius: 50px;
 }
-/*carrousel*/
-
-#carrousel
-{
-    
-}
 
 /*botones de navegavion*/
 .botones_stock
@@ -77,7 +71,6 @@
 .botones_stock a
 {
     width: 45%;
-    margin: 10px;
 
 }
 /*inicio del estilo de los contenedores padre e hijo*/
