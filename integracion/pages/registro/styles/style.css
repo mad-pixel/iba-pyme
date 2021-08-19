@@ -61,7 +61,7 @@
     box-shadow: gray;
     border: 10;
     box-shadow: 5px 5px 10px #161313;
-    width: 45%;
+    width: 60%;
    
     
 }
@@ -102,6 +102,6 @@
 .absolute1{
     margin-left: 35px;
     width: 80%;
-  
+    margin-top: 1px;
     
 }
