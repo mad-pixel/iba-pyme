@@ -53,17 +53,16 @@
 {
     margin: 20px;
 }
+#carrito a svg
+{
+    text-decoration: none;
+    color: white;
+}
 
 
 .btn-productos_servicios
 {
     border-radius: 50px;
-}
-/*carrousel*/
-
-#carrousel
-{
-    
 }
 
 /*botones de navegavion*/

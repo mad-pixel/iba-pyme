@@ -53,6 +53,11 @@
 {
     margin: 20px;
 }
+#carrito a svg
+{
+    text-decoration: none;
+    color: white;
+}
 
 /*Estilos de login*/
 .form-login{
