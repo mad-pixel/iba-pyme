@@ -60,10 +60,24 @@
     text-decoration: none;
     color: white;
 }
+/*-------boton carrito-------*/
+
+#carrito li 
+{
+    list-style:none;
+    
+}
+#carrito a
+{
+    text-decoration: none;
+    color:white;
+}
 #carrito
 {
     margin: 20px;
 }
+/*-------boton carrito-------*/
+
 
 .btn-productos_servicios
 {
