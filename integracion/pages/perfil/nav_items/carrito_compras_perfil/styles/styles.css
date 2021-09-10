@@ -1,0 +1,213 @@
+/*background del nav */
+.bg-black
+{
+    background-color: black !important;
+}
+
+.main-footer
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    
+}
+/*nav menu*/
+
+
+
+/*-----------Busqueda-------------*/
+#buscar
+{
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*--------factura--------*/
+#factura_enlace
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+
+}
+
+#factura_enlace li
+{
+    list-style: none;
+}
+
+#factura_enlace li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*fin de factura*/
+
+/*-------ajuste boton--------*/
+#ajuste_enlace 
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#ajuste_enlace li 
+{
+    list-style: none;
+
+}
+#ajuste_enlace li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*-------ajuste boton--------*/
+
+
+
+/*-------boton carrito-------*/
+
+#carrito li 
+{
+    list-style: none;
+}
+#carrito li a
+{
+    text-decoration: none;
+    color: white;
+}
+#carrito
+{
+    margin: 20px;
+}
+
+
+/*-------boton carrito-------*/
+
+/*-------boton salida --------*/
+#salida
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#salida li 
+{
+    list-style: none;
+
+}
+#salida li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*-------boton salida--------*/
+
+.btn-productos_servicios
+{
+    border-radius: 50px;
+}
+
+
+
+/*inicio compras*/
+.cardrow{
+    margin: 10px;
+    display: flex;
+    background-color: #f2f2f2;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.padre_contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.imagen_producto{
+    display: flex;
+    margin: 20px;
+}
+
+.nombre_decripcion
+{
+    display: flex;
+    flex-direction: column;
+}
+
+h3
+{
+    color: #7A7A7A;
+}
+
+.precio_texto_cantidad_boton_cantidad 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.boton_eliminar{
+    margin: 15px;
+}
+
+.boton_cantidad input
+{
+    border-radius: 8px;
+    width: 50px;
+    border: solid 1px #707070;
+
+}
+
+.precio_texto_cantidad_boton_cantidad .precio
+{
+    display: flex;
+    justify-content: start;
+}
+.precio_texto_cantidad_boton_cantidad .texto_cantidad
+{
+    display: flex;
+    margin-left: 50%;
+}
+
+.total
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#boton
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btn-outline-success
+{
+    width: 210px;
+    height: 60px;
+    font-size:30px;
+    border: #707070 solid 1px;
+    border-radius: 81px;
+    background-color: #00a441;
+    color: white;
+}
+
+.basura .
+{
+    display: flex;
+
+}
+
+.main-footer
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    
+}
+
