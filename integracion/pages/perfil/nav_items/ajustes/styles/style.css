@@ -1,0 +1,131 @@
+/*background del nav */
+.bg-black
+{
+    background-color: black !important;
+}
+
+.main-footer
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    
+}
+/*nav menu*/
+
+
+
+/*-----------Busqueda-------------*/
+#buscar
+{
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*--------factura--------*/
+#factura_enlace
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+
+}
+
+#factura_enlace li
+{
+    list-style: none;
+}
+
+#factura_enlace li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*fin de factura*/
+
+/*-------ajuste boton--------*/
+#ajuste_enlace 
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#ajuste_enlace li 
+{
+    list-style: none;
+
+}
+#ajuste_enlace li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*-------ajuste boton--------*/
+
+
+
+/*-------boton carrito-------*/
+
+#carrito li 
+{
+    list-style: none;
+}
+#carrito li a
+{
+    text-decoration: none;
+    color: white;
+}
+#carrito
+{
+    margin: 20px;
+}
+
+
+/*-------boton carrito-------*/
+
+/*-------boton salida --------*/
+#salida
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#salida li 
+{
+    list-style: none;
+
+}
+#salida li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*-------boton salida--------*/
+
+/*-----------formulario de ajustes-----------------*/
+form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-bottom: 152px;
+    width: 800px;
+    height: auto;
+    border: #707070 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #161313;
+}
+  
+.input-group
+{
+    margin: 10px;
+}
+.titulo_ajustes
+{
+    margin-top: 50px;
+}

@@ -1,28 +1,20 @@
+/*background del nav */
 .bg-black
 {
     background-color: black !important;
-}
-.home-image
-{
-    
-    height:100vh;
-    
-}
-.main-btn
-{
-    background-color: var(--primary);
-    color: black;
-    border:solid  var(--primary) 2px;
 }
 
 .main-footer
 {
     background-color: rgb(0, 0, 0);
     color: #fff;
+    padding: 10px;
+    
 }
+/*nav menu*/
 #registro_enlace
 {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: flex-end;
     color: white;
@@ -30,7 +22,7 @@
 }
 #ingreso_enlace 
 {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: flex-end;
     
@@ -44,7 +36,6 @@
 #registro_enlace li
 {
     list-style: none;
-
 }
 
 #ingreso_enlace li a
@@ -57,62 +48,65 @@
 {
     text-decoration: none;
     color: white;
-
+}
+#carrito
+{
+    margin: 20px;
+}
+#carrito li 
+{
+    list-style: none;
+}
+#carrito a
+{
+    text-decoration: none;
+    color: white;
 }
 
+
+
 /*inicio compras*/
-/*inicio compras*/
-.hijo
-{
+.cardrow{
+    margin: 10px;
     display: flex;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     border: 1px solid #707070;
     border-radius: 20px;
     padding: 10px;
-    margin: 20px;
 }
-.padre_contenido
-{
+
+.padre_contenido{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.imagen_producto
-{
+.imagen_producto{
     display: flex;
     margin: 20px;
 }
-.nombre_descripcion_basura
-{
-    display: flex;
-}
+
 .nombre_decripcion
 {
     display: flex;
     flex-direction: column;
 }
-.nombre
-{
-    display: flex;
-    justify-content: center; 
-}
+
 h3
 {
     color: #7A7A7A;
 }
-.precio_texto_cantidad_boton_cantidad
+
+.precio_texto_cantidad_boton_cantidad 
 {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
-.basura
-{
-    display: flex;
-
+.boton_eliminar{
+    margin: 15px;
 }
+
 .boton_cantidad input
 {
     border-radius: 8px;
@@ -120,6 +114,7 @@ h3
     border: solid 1px #707070;
 
 }
+
 .precio_texto_cantidad_boton_cantidad .precio
 {
     display: flex;
@@ -128,7 +123,7 @@ h3
 .precio_texto_cantidad_boton_cantidad .texto_cantidad
 {
     display: flex;
-    margin-left: 70%;
+    margin-left: 50%;
 }
 
 .total
@@ -154,6 +149,13 @@ h3
     background-color: #00a441;
     color: white;
 }
+
+.basura .
+{
+    display: flex;
+
+}
+
 .main-footer
 {
     background-color: rgb(0, 0, 0);
@@ -161,3 +163,4 @@ h3
     padding: 10px;
     
 }
+

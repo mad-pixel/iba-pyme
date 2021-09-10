@@ -23,7 +23,9 @@
     flex-direction: column;
     align-items: center;
 }
-#registro_enlace
+
+/*--------factura--------*/
+#factura_enlace
 {
     padding: 20px;
     display: flex;
@@ -31,53 +33,77 @@
     color: white;
 
 }
-#ingreso_enlace 
+
+#factura_enlace li
+{
+    list-style: none;
+}
+
+#factura_enlace li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*fin de factura*/
+
+/*-------ajuste boton--------*/
+#ajuste_enlace 
 {
     padding: 20px;
     display: flex;
     align-items: flex-end;
-    
-
 }
-#ingreso_enlace li 
+#ajuste_enlace li 
 {
     list-style: none;
 
 }
-#registro_enlace li
-{
-    list-style: none;
-}
-
-#ingreso_enlace li a
-{
-    text-decoration: none;
-    color: white;
-
-}
-#registro_enlace li a
+#ajuste_enlace li a
 {
     text-decoration: none;
     color: white;
 }
+/*-------ajuste boton--------*/
+
+
+
 /*-------boton carrito-------*/
 
 #carrito li 
 {
-    list-style:none;
-    
+    list-style: none;
 }
-#carrito a
+#carrito li a
 {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 #carrito
 {
     margin: 20px;
 }
+
+
 /*-------boton carrito-------*/
 
+/*-------boton salida --------*/
+#salida
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+#salida li 
+{
+    list-style: none;
+
+}
+#salida li a
+{
+    text-decoration: none;
+    color: white;
+}
+/*-------boton salida--------*/
 
 .btn-productos_servicios
 {
@@ -163,7 +189,3 @@
     height: 40px;
     border-radius: 10px;
 }
-
-
-
-

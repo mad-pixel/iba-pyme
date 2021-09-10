@@ -11,6 +11,9 @@
     <title>IBA-PYME</title>
 </head>
 
+
+
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
@@ -28,31 +31,105 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 </ul>
+                <div id="buscar"><!--input de busqueda-->
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
 
                 <div id="ingreso_enlace">
                     <li class="nav-item">
-                        <a href="../../pages/Login/login.html">Ingresar</a>
+                        <a href="../../pages/Login/login.html">
+                            Ingresar
+                            <!--icono de ingreso-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                            </svg>
+                        
+                        </a>
                     </li>
                 </div>
                 <div id="registro_enlace">
                     <li class="nav-item">
-                        <a href="../../pages/registro/Registro.html">Registrarse</a>
+                        <a href="../../pages/registro/Registro.html">
+                            Registrarse
+                            <!--icono de registro-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
+                                <path fill-rule="evenodd" d="M7.646 4.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V14.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3z"/>
+                            </svg>
+                        
+                        </a>
                     </li>
                 </div>
                 <div id="carrito">
                     <a href="./pages/carrito_compras/index.html">
-                        <img src="../../resources/images/carrito_compras.png" alt="carrito_compras" width="40px" height="40px">
+                        <!--icono de carrito-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg>
                     </a>
                 </div>
             </div>
         </div>
     </nav>
+</div>
+<div id="carrousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carrousel" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carrousel" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://img.lalr.co/cms/2017/04/12033800/Productos_Vendidos_CocaCola1204.jpg?size=xl&ratio=r40_21" 
+                class="d-block w-100" alt="..." height="450px">
+        </div>
+        <div class="carousel-item">
+            <img src="https://s03.s3c.es/imag/_v0/770x420/6/a/9/coches-pantallas-grandes-2019-tesla-model-s.jpg"
+                class="d-block w-100" alt="..." height="450px">
+        </div>
+        <div class="carousel-item">
+            <img src="https://s1.1zoom.me/big0/496/341751-alexfas01.jpg"
+                class="d-block w-100" alt="..." height="450px">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>
     <div class="botones_stock">
         <a class="btn btn-outline-primary btn-productos_servicios" href="../../index.html" role="button">
-            <h3>Productos</h3>
+            <h3>Productos
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16">
+                    <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                    <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
+                </svg>
+            </h3>
         </a>
         <a class="btn btn-primary btn-productos_servicios" href="#" role="button">
-            <h3>Servicios</h3>
+            <h3>Servicios
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                </svg>
+            </h3>
         </a>
         
     </div>
@@ -64,18 +141,18 @@
             <!--inicio de las card-->
             <div class="cards_productos">
                 <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
+                    <img src="../servicios/imageneservicios/scatering.jpg" alt="imagen_producto" width="200px" height="150px">
                     <div class="nombre_card">
-                        <h5>Servicio 1</h5>
+                        <h5>Servicio de Catering</h5>
                     </div>
                     <div class="descripcion_producto">
                         <p>
-                            Este servicio cumple una funcion especifica.
+                            Organizamos sus eventos de forma profesional.
                         </p>
                     </div>
                     <div class="precio_cantidad_producto">
                         <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
+                            <h5>COP $12.000</h5>
                             <form method="" action="">
                                 <input type="number" required>
                         </div>
@@ -89,18 +166,18 @@
             <!--inicio de las card-->
             <div class="cards_productos">
                 <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
+                    <img src="../servicios/imageneservicios/set.jpg" alt="imagen_producto" width="200px" height="150px">
                     <div class="nombre_card">
-                        <h5>Servicio 1</h5>
+                        <h5>Alquiler de set</h5>
                     </div>
                     <div class="descripcion_producto">
                         <p>
-                            Este servicio cumple una funcion especifica.
+                            Para Transmisiones Y Eventos Virtuales
                         </p>
                     </div>
                     <div class="precio_cantidad_producto">
                         <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
+                            <h5>COP $900.000</h5>
                             <form method="" action="">
                                 <input type="number" required>
                         </div>
@@ -114,18 +191,18 @@
             <!--inicio de las card-->
             <div class="cards_productos">
                 <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
+                    <img src="../servicios/imageneservicios/reparacion.jpg" alt="imagen_producto" width="200px" height="150px">
                     <div class="nombre_card">
-                        <h5>Servicio 1</h5>
+                        <h5>Reparacion Celular</h5>
                     </div>
                     <div class="descripcion_producto">
                         <p>
-                            Este servicio cumple una funcion especifica.
+                            Reparación De Celulares A Domicilio Gratis
                         </p>
                     </div>
                     <div class="precio_cantidad_producto">
                         <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
+                            <h5>COP $10.000</h5>
                             <form method=" " action="">
                                 <input type="number" required>
                         </div>
@@ -139,13 +216,137 @@
             <!--inicio de las card-->
             <div class="cards_productos">
                 <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
+                    <img src="../servicios/imageneservicios/Alquiler-de-video-beam.jpg" alt="imagen_producto" width="200px" height="150px">
                     <div class="nombre_card">
-                        <h5>Servicio 1</h5>
+                        <h5>Alquiler De V. Beam</h5>
                     </div>
                     <div class="descripcion_producto">
                         <p>
-                            Este servicio cumple una funcion especifica.
+                            Alquiler De Video Beam desde $25.000 Pesos
+                        </p>
+                    </div>
+                    <div class="precio_cantidad_producto">
+                        <div class="precio_cantidad_producto_orden">
+                            <h5>COP $25.000</h5>
+                            <form method="" action="">
+                                <input type="number" required>
+                        </div>
+                        <div class="boton_compra">
+                            <button class="btn btn-primary" type="submit">Comprar</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--fin de la card-->
+            <!--inicio de las card-->
+            <div class="cards_productos">
+                <div class="imagen_producto">
+                    <img src="../servicios/imageneservicios/digital.jpg" alt="imagen_producto" width="200px" height="150px">
+                    <div class="nombre_card">
+                        <h5>Digitalizacion Movies</h5>
+                    </div>
+                    <div class="descripcion_producto">
+                        <p>
+                            Digitalizacion Videos Peliculas Conversion Vhs
+                    </div>
+                    <div class="precio_cantidad_producto">
+                        <div class="precio_cantidad_producto_orden">
+                            <h5>COP $14.000</h5>
+                            <form method="" action="">
+                                <input type="number" required>
+                        </div>
+                        <div class="boton_compra">
+                            <button class="btn btn-primary" type="submit">Comprar</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--fin de la card-->
+            <!--inicio de las card-->
+            <div class="cards_productos">
+                <div class="imagen_producto">
+                    <img src="../servicios/imageneservicios/peluqueria-canina.jpg" alt="imagen_producto" width="200px" height="150px">
+                    <div class="nombre_card">
+                        <h5>Peluqueria Mascotas </h5>
+                    </div>
+                    <div class="descripcion_producto">
+                        <p>
+                            Baño Y Peluqueria Para Mascotas A Domicilio.
+                        </p>
+                    </div>
+                    <div class="precio_cantidad_producto">
+                        <div class="precio_cantidad_producto_orden">
+                            <h5>COP $50.000</h5>
+                            <form method="" action="">
+                                <input type="number" required>
+                        </div>
+                        <div class="boton_compra">
+                            <button class="btn btn-primary" type="submit">Comprar</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--fin de la card-->
+            <!--inicio de las card-->
+            <div class="cards_productos">
+                <div class="imagen_producto">
+                    <img src="../servicios/imageneservicios/alquiler-de-guacales.jpg" alt="imagen_producto" width="200px" height="150px">
+                    <div class="nombre_card">
+                        <h5>Alquiler Guacales</h5>
+                    </div>
+                    <div class="descripcion_producto">
+                        <p>
+                            Alquiler Guacales Para Perros Y Gatos.
+                        </p>
+                    </div>
+                    <div class="precio_cantidad_producto">
+                        <div class="precio_cantidad_producto_orden">
+                            <h5>COP $80.000</h5>
+                            <form method="" action="">
+                                <input type="number" required>
+                        </div>
+                        <div class="boton_compra">
+                            <button class="btn btn-primary" type="submit">Comprar</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--fin de la card-->
+            <!--inicio de las card-->
+            <div class="cards_productos">
+                <div class="imagen_producto">
+                    <img src="../servicios/imageneservicios/guarderia.jpg" alt="imagen_producto" width="200px" height="150px">
+                    <div class="nombre_card">
+                        <h5>Guarderia Canina</h5>
+                    </div>
+                    <div class="descripcion_producto">
+                        <p>
+                            Guarderia Canina Servicio Baño Y Peluqueria Canina
+                        </p>
+                    </div>
+                    <div class="precio_cantidad_producto">
+                        <div class="precio_cantidad_producto_orden">
+                            <h5>COP $25.000</h5>
+                            <form method="" action="">
+                                <input type="number" required>
+                        </div>
+                        <div class="boton_compra">
+                            <button class="btn btn-primary" type="submit">Comprar</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--fin de la card-->
+            <!--inicio de las card-->
+            <div class="cards_productos">
+                <div class="imagen_producto">
+                    <img src="../servicios/imageneservicios/cafe.jpg" alt="imagen_producto" width="200px" height="150px">
+                    <div class="nombre_card">
+                        <h5>Servicio Téc. Breville</h5>
+                    </div>
+                    <div class="descripcion_producto">
+                        <p>
+                            Ing. y tec. expertos, en máquinas de café.
                         </p>
                     </div>
                     <div class="precio_cantidad_producto">
@@ -164,18 +365,18 @@
             <!--inicio de las card-->
             <div class="cards_productos">
                 <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
+                    <img src="../servicios/imageneservicios/REPARACION-Y-FORMATEO-DE-COMPUTADORAS.jpg" alt="imagen_producto" width="200px" height="150px">
                     <div class="nombre_card">
-                        <h5>Servicio 1</h5>
+                        <h5>Formateo De PC</h5>
                     </div>
                     <div class="descripcion_producto">
                         <p>
-                            Este servicio cumple una funcion especifica.
+                        Serv. Tec. Y Formateo De PC A Domicilio
                         </p>
                     </div>
                     <div class="precio_cantidad_producto">
                         <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
+                            <h5>COP $40.000</h5>
                             <form method="" action="">
                                 <input type="number" required>
                         </div>
@@ -186,289 +387,6 @@
                     </div>
                 </div>
             </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="" action="">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="POST" action="#">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="POST" action="#">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-            <!--inicio de las card-->
-            <div class="cards_productos">
-                <div class="imagen_producto">
-                    <img src="../../resources/images/imagen_card.jpg" alt="imagen_producto">
-                    <div class="nombre_card">
-                        <h5>Servicio 1</h5>
-                    </div>
-                    <div class="descripcion_producto">
-                        <p>
-                            Este servicio cumple una funcion especifica.
-                        </p>
-                    </div>
-                    <div class="precio_cantidad_producto">
-                        <div class="precio_cantidad_producto_orden">
-                            <h5>COP $100.000</h5>
-                            <form method="POST" action="#">
-                                <input type="number" required>
-                        </div>
-                        <div class="boton_compra">
-                            <button class="btn btn-primary" type="submit">Comprar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div><!--fin de la card-->
-
-
-
-
-
-
-
-
 
                 </div>
                 <!--fin de las card-->

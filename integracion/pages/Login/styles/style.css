@@ -53,6 +53,16 @@
 {
     margin: 20px;
 }
+#carrito li 
+{
+    list-style: none;
+}
+#carrito a
+{
+    text-decoration: none;
+    color: white;
+}
+
 
 /*Estilos de login*/
 .form-login{
@@ -65,4 +75,10 @@
 
 .promo{
     background-color: rgba(133, 133, 133, 0.137);
+}
+
+.btn-rounded{
+    margin-left: 10px;
+    border-radius: 57px;
+    width: 70%;
 }

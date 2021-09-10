@@ -53,6 +53,16 @@
 {
     margin: 20px;
 }
+#carrito li 
+{
+    list-style: none;
+}
+#carrito a
+{
+    text-decoration: none;
+    color: white;
+}
+
 
 /*Estilos de REGISTRO*/
 .form-login{
@@ -61,7 +71,7 @@
     box-shadow: gray;
     border: 10;
     box-shadow: 5px 5px 10px #161313;
-    width: 45%;
+    width: 60%;
    
     
 }
@@ -85,8 +95,8 @@
 }
 
 .boton_compra{
-    width: 50%;
-    border-radius: 13px;
+    width: 70%;
+    border-radius: 10px;
     margin-bottom: 3%;
     margin-left: 18%;
 }
